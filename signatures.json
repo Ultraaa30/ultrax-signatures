@@ -53,7 +53,12 @@
     { "string": "dControl.exe",                           "label": "Defender Control - executable" },
     { "string": "Defender Control",                       "label": "Defender Control - string" },
     { "string": "imdisk0",                                "label": "ImDisk - virtual disk" },
-    { "string": "ZltWMtLL5xBgZ2M",                        "label": "Susano - key string" }
+    { "string": "ZltWMtLL5xBgZ2M",                        "label": "Susano - key string" },
+    { "string": "928b3ffc-022d-42cc-81b4-85b1ed96e0ce",   "label": "PowerShell RunPE loader - build GUID" },
+    { "string": "module.m.b",                             "label": "PowerShell RunPE loader - reflective type (module.m.b)" },
+    { "string": "GitHub\\powershell\\Build\\Release\\IntermediateModule\\Release\\Module.pdb", "label": "PowerShell RunPE loader - Module.pdb path" },
+    { "string": "GitHub\\powershell\\Build\\Release\\Launcher.pdb", "label": "PowerShell RunPE loader - Launcher.pdb path" },
+    { "string": "Q2xlYXItSG9zdA0KDQokbW9kdWxlID0gW1N5c3RlbS5Db252ZXJ0XTo6RnJvbUJhc2U2NFN0cmluZygi", "label": "PowerShell RunPE loader - encrypted base64 wrapper" }
   ],
   "suspicious": [
     { "string": "USBDeview.exe",                          "label": "USBDeview - HWID spoofer tool" },

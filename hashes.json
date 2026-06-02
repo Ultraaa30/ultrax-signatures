@@ -1,5 +1,7 @@
 [
   {"hash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","label":"Empty file — suspicious","severity":"suspicious"},
   {"hash":"44d88612fea8a8f36de82e1278abb02f","label":"EICAR test — antivirus check","severity":"suspicious"},
-  {"hash":"a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2","label":"Example cheat hash — replace with real","severity":"detected"}
+  {"hash":"a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2","label":"Example cheat hash — replace with real","severity":"detected"},
+  {"hash":"9bacd4c52b0a708a678b7dd4f83638afdcd5b1159f00dd44e7d7c34f9f006654","label":"PowerShell RunPE loader — Module.dll (hollowing stage)","severity":"detected"},
+  {"hash":"72c7e92f0595f61e1ae2afdf0f444c6ae4c1f3875a23171c9ca652444f46b175","label":"PowerShell RunPE loader — Launcher payload (libcurl/DoH)","severity":"detected"}
 ]

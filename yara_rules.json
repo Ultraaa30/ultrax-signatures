@@ -20,5 +20,9 @@
   {"name":"process_hollowing","label":"Process hollowing","severity":"detected","strings":["NtUnmapViewOfSection","ZwUnmapViewOfSection","WriteProcessMemory","SetThreadContext"],"condition":"all","min":3},
   {"name":"aimbot_strings","label":"Aimbot/ESP cheat","severity":"detected","strings":["aimbot","esp_draw","wallhack","triggerbot","boneESP","aimassist"],"condition":"any"},
   {"name":"fivem_exploit","label":"FiveM exploit strings","severity":"detected","strings":["nui_exploit","fivem_exploit","cfx_bypass","citizenfx_bypass"],"condition":"any"},
-  {"name":"byovd_driver","label":"BYOVD driver pattern","severity":"detected","strings":["4D 5A 90 00 03 00 00 00"],"condition":"any"}
+  {"name":"byovd_driver","label":"BYOVD driver pattern","severity":"detected","strings":["4D 5A 90 00 03 00 00 00"],"condition":"any"},
+  {"name":"ps_runpe_build_guid","label":"PowerShell RunPE loader - build GUID","severity":"detected","strings":["928b3ffc-022d-42cc-81b4-85b1ed96e0ce"],"condition":"any"},
+  {"name":"ps_runpe_pdb","label":"PowerShell RunPE loader - author PDB path","severity":"detected","strings":["intermediatemodule"],"condition":"any"},
+  {"name":"ps_runpe_reflect","label":"PowerShell reflective RunPE loader (decoded script)","severity":"detected","strings":["module.m.b","::load($module)","::clearhistory()"],"condition":"any"},
+  {"name":"ps_runpe_b64_wrapper","label":"PowerShell RunPE loader - encrypted base64 wrapper at rest","severity":"detected","strings":["Q2xlYXItSG9zdA0KDQokbW9kdWxlID0gW1N5c3RlbS5Db252ZXJ0XTo6RnJvbUJhc2U2NFN0cmluZygi"],"condition":"any"}
 ]
